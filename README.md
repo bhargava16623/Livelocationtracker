@@ -117,6 +117,8 @@ App runs on `http://localhost:4000`.
 | `CLIENT_ID` | OAuth client ID (from registration) | `73ef9b8a...` |
 | `CLIENT_SECRET` | OAuth client secret (from registration) | `33db0513...` |
 | `KAFKA_BROKERS` | Comma-separated Kafka broker addresses | `localhost:9092` |
+| `DATABASE_URL` | Database url for Postgresql DB| `postgresql://admin:admin@localhost:5432/oidc_auth` |
+| `DB_PORT` | DB port | `8000` |
 
 ## OIDC Auth Setup
 
