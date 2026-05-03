@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Live Location Tracker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #09090b;
+      color: #fafafa;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #18181b;
+      border: 1px solid #27272a;
+      border-radius: 0.75rem;
+      padding: 2.5rem;
+      text-align: center;
+      max-width: 360px;
+      width: 100%;
+    }
+    .card h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .card p { color: #a1a1aa; font-size: 0.9rem; margin-bottom: 1.5rem; }
+    .btn-login {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #22c55e;
+      color: #000;
+      border-radius: 0.375rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: background 0.15s;
+    }
+    .btn-login:hover { background: #16a34a; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>📍 Live Location Tracker</h1>
+    <p>Share your location and see others moving in real-time.</p>
+    <a href="/auth/login" class="btn-login">Sign in with OIDC</a>
+  </div>
+</body>
+</html>

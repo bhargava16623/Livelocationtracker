@@ -1,0 +1,20 @@
+{
+  "name": "live-location-tracker",
+  "version": "1.0.0",
+  "description": "Live location tracker with OIDC auth, Kafka, and Leaflet maps",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "setup-kafka": "node kafka-admin.js",
+    "db-processor": "node database-processor.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "kafkajs": "^2.2.4",
+    "socket.io": "^4.8.1"
+  }
+}
